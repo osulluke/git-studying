@@ -1,1 +1,12 @@
 
+Some decent coverage so far, mostly of things I know...
+	A couple items that are worty...
+	git rm
+	git mv
+	- both these commands basically save a longer sequence of a remove
+	followed by a separate 'commit'. These are 'git' shorthand for getting it done in one swoop.
+
+Configuration files - pretty simple text files; there is a hierarchy 
+between them that controls the behavior of git on a machine. One new cool
+thing I learned is that you can add aliases to the git program; so if you
+have a complex but oft-repeated git command, you can shorten it to something easier to remember and way easier to type. On to chapter 4!

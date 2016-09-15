@@ -10,3 +10,7 @@ Configuration files - pretty simple text files; there is a hierarchy
 between them that controls the behavior of git on a machine. One new cool
 thing I learned is that you can add aliases to the git program; so if you
 have a complex but oft-repeated git command, you can shorten it to something easier to remember and way easier to type. On to chapter 4!
+
+Initial words regarding git fundamentals; i.e., what is a git repository? It is a simple database that that will manage the changes and history of a progject. What is an object store? It is the group (of 4 things) that are stored in a git database (repository). Those things are blobs, trees, commits, and tags. So far, the only one I have explicitly used (at this point - I think), is the 'tag' object type (blobs and trees are used in the natural course of exercising git).
+
+The git 'index' is the place that files go before you commit them. i.e., it is that intermediate step between what is in the current directory, what has changed, and what you've got staged for commit before actually setting a commit based on those changes.
